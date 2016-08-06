@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: web
+  cloud:
+    config:
+      uri: http://localhost:8080/configserver/
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+server:
+  port: 8081
