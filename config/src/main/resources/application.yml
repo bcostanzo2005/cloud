@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/bcostanzo2005/app-configs
+      discovery:
+        enabled: true
